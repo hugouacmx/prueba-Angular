@@ -1,0 +1,31 @@
+<mat-card class="card">
+
+    <div class="close">
+        <button mat-icon-button aria-label="Example icon button with a vertical three dot icon" (click)="close()">
+            <mat-icon>cancel</mat-icon>
+        </button>
+    </div>
+    
+    <mat-card-header>
+          <img mat-card-avatar src="{{ pokemon.image }}" >
+          <mat-card-title>{{ pokemon.name }}</mat-card-title>
+          <mat-card-subtitle> N° {{ pokemon.id }}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <img mat-card-image src="{{ pokemon.image }}" alt="pokemon">
+        
+    <mat-card-content>    
+        <mat-chip-list aria-label="Fish selection">
+            <mat-chip color="primary" selected>Tipo: {{pokemon.type}}</mat-chip>
+            <mat-chip color="primary" selected>Altura: {{pokemon.height}}</mat-chip>
+            <mat-chip color="primary" selected>Peso: {{pokemon.weight}}</mat-chip>
+        </mat-chip-list>      
+    </mat-card-content>
+    
+    <mat-card-actions>
+        <button class="pokebola animate__animated animate__bounce" mat-fab color="accent" (click)="addFavorites(pokemon.id)">
+                <img src="assets/img/pokemon-logo-png-1447-256x256.ico" alt="pokebola" width="30px" height="30px">           
+        </button>  
+    </mat-card-actions>
+</mat-card>
+

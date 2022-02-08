@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Inicio",
+        "redirect": "inicio"
+    },
+    {
+        "nombre": "Mundo Pokemon",
+        "redirect": "mundoPokemon"
+    },
+    {
+        "nombre": "Mis Pokemon",
+        "redirect": "misPokemon"
+    }
+]

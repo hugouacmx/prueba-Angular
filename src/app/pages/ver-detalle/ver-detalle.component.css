@@ -1,0 +1,60 @@
+.close {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 4px solid rgb(27, 139, 214);
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../../../assets/img/depos.jpg');
+}
+
+.header-image {
+    background-attachment: fixed;
+}
+
+.mat-card-header {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 4px solid rgb(27, 139, 214);
+}
+
+.mat-card-title {
+    color: black;
+    text-transform: uppercase;
+}
+
+.mat-card-subtitle {
+    color: black;
+}
+
+.mat-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-chip {
+    background-color: rgb(58, 221, 17) !important;
+}
+
+.mat-card-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.pokebola {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}

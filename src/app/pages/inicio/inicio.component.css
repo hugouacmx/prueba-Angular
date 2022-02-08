@@ -1,0 +1,25 @@
+.container {
+    display: flex;    
+    border-radius: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron, 
+.portada {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.portada {
+    border-radius: 5rem;
+    border: 3px solid rgb(226, 205, 10);
+}
+
+.texto-intro {
+    text-align: justify;
+    color: white;
+    margin: 1rem auto;
+    width: 95%;
+}
+
