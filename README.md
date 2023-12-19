@@ -1,6 +1,6 @@
 # PokeApp
 
-Esta es una prueba tecnica la cual fue creada con el framwork angular en su versión 13.0.0 
+Esta es una prueba tecnica la cual fue creada con el Framework Angular en su versión 13.0.0 
 
 ## Ejecutar y servir aplicación
 
